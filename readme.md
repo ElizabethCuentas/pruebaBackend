@@ -26,6 +26,13 @@ Este proyecto es una API REST construida con **FastAPI**, conectada a **MongoDB*
 - Pydantic
 - Passlib
 
+## 📬 Endpoints destacados
+
+- POST /user → Crear usuario
+- POST /login → Login
+- GET /breeds/ → Obtener todas las razas
+- GET /breeds/search/?q=sib → Buscar razas por nombre
+
 ---
 
 ## 🐳 Instalación con Docker
