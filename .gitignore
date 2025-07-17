@@ -1,0 +1,54 @@
+# Entornos virtuales
+env/
+venv/
+.venv/
+
+# Archivos de entorno
+.env
+*.env
+
+# Archivos de Python compilados
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Configuración de VSCode
+.vscode/
+
+# Carpetas de test cache
+.pytest_cache/
+.cache/
+.coverage
+
+# Archivos de log
+*.log
+
+# Archivos de base de datos
+*.sqlite3
+*.db
+
+# Directorios creados por Docker
+docker-compose.override.yml
+**/migrations/
+
+# Volúmenes de Mongo si están montados localmente
+mongo_data/
+
+# Archivos de salida
+dist/
+build/
+*.egg-info/
+
+# Archivos de Jupyter (por si usas)
+*.ipynb_checkpoints/
+
+# System
+.DS_Store
+Thumbs.db
+
+# Node (si llegas a usar algún front)
+node_modules/
+
+# Reportes de pruebas
+htmlcov/
+coverage.xml

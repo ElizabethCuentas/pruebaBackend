@@ -1,0 +1,14 @@
+fastapi
+uvicorn
+motor
+httpx>=0.24,<1.0
+pydantic[email]
+python-dotenv
+passlib[bcrypt]
+
+# Pruebas
+pytest
+pytest-asyncio
+pytest-cov
+pytest-mock
+asgi_lifespan
